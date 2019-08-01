@@ -6,10 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="./bAssets/style.css">
-<script src="https://kit.fontawesome.com/05f12e3228.js"></script>
- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/05f12e3228.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <title>Hello, world!</title>
 </head>
 
@@ -37,31 +37,58 @@
     </div>
   </nav>
   <div class="row">
-  <div class="col-md-4">
-  <figure> <img class="profilePic" src="./bAssets/Chawk.jpg" alt="Picture of Corey Hawkins">
-  <figcaption><strong>Corey Hawkins</strong></figcaption> </figure>
-  <nav class="nav flex-column mobileNav">
-    <a class="nav-link active mobileProfile" href="#"><i class="far fa-grin-beam"></i><p>My Profile</p></a>
-    <a class="nav-link mobileProfile" href="#"><i class="fas fa-briefcase"></i><p>Experience</p></a>
-    <a class="nav-link mobileProfile" href="#"><i class="fas fa-book-open"></i><p>Portfolio</p></a>
-    <a class="nav-link mobileProfile" href="#"><i class="fas fa-university"></i><p>Education</p></a>
-    <a class="nav-link mobileProfile" href="#"><i class="fas fa-tools"></i><p>Skills</p></a>
-  </nav>
-</div>
-<div class="col-md-4">
-  <p class="txt">Text</p>
-  </div>
-  <div class="col-md-4">
-    <p class = "txt">Suspendisse viverra nec urna in dictum. Phasellus nec neque vel orci blandit convallis nec dapibus lorem. Nam tempor imperdiet odio at facilisis. Vivamus posuere, urna quis suscipit semper, dolor justo accumsan turpis, id luctus neque
-    neque
-    </p>
+    <div class="col-md-4 prof">
+      <figure> <img class="profilePic" src="./bAssets/Chawk.jpg" alt="Picture of Corey Hawkins">
+        <figcaption><strong>Corey Hawkins</strong></figcaption>
+      </figure>
+      <p class="phone"><a href="tel:1-207-557-3016">207-557-3016</a></p>
+      <nav class="nav mobileNav">
+        <a class="nav-link active mobileProfile" href="#prof"><i class="far fa-grin-beam"></i>
+          <p>My Profile</p>
+        </a>
+        <a class="nav-link mobileProfile" href="#exp"><i class="fas fa-briefcase"></i>
+          <p>Experience</p>
+        </a>
+        <a class="nav-link mobileProfile" href="#port"><i class="fas fa-book-open"></i>
+          <p>Portfolio</p>
+        </a>
+        <a class="nav-link mobileProfile" href="#educ"><i class="fas fa-university"></i>
+          <p>Education</p>
+        </a>
+        <a class="nav-link mobileProfile" href="#skills"><i class="fas fa-tools"></i>
+          <p>Skills</p>
+        </a>
+      </nav>
+    </div>
+    <div id ="mobileList" class="col-md-4 txt">
+      <h1 id="prof">Profile</h1>
+      <p>Suspendisse viverra nec urna in dictum. Phasellus nec neque vel orci blandit convallis nec dapibus lorem. Nam tempor imperdiet odio at facilisis. Vivamus posuere, urna quis suscipit semper, dolor justo accumsan turpis, id luctus</p>
+      <hr>
+      <h1 id="exp">Experience</h1>
+      <p>Suspendisse viverra nec urna in dictum. Phasellus nec neque vel orci blandit convallis nec dapibus lorem. Nam tempor imperdiet odio at facilisis. Vivamus posuere, urna quis suscipit semper, dolor justo accumsan turpis, id luctus</p>
+      <hr>
+      <h1 id="port">Portfolio</h1>
+      <p>Suspendisse viverra nec urna in dictum. Phasellus nec neque vel orci blandit convallis nec dapibus lorem. Nam tempor imperdiet odio at facilisis. Vivamus posuere, urna quis suscipit semper, dolor justo accumsan turpis, id luctus</p>
+      <hr>
+      <h1 id="educ">Education</h1>
+      <p>Suspendisse viverra nec urna in dictum. Phasellus nec neque vel orci blandit convallis nec dapibus lorem. Nam tempor imperdiet odio at facilisis. Vivamus posuere, urna quis suscipit semper, dolor justo accumsan turpis, id luctus</p>
+      <hr>
+      <h1 id="skills">Skills</h1>
+      <p>Suspendisse viverra nec urna in dictum. Phasellus nec neque vel orci blandit convallis nec dapibus lorem. Nam tempor imperdiet odio at facilisis. Vivamus posuere, urna quis suscipit semper, dolor justo accumsan turpis, id luctus</p>
+      <!-- Go to www.addthis.com/dashboard to customize your tools -->
+
+    </div>
+    <div class="col-md-4">
+
     </div>
   </div>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <footer>
+    <a href="https://www.linkedin.com/in/corey-hawkins-83ab1975/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+  </footer>
 </body>
 
 </html>
